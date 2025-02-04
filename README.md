@@ -56,4 +56,17 @@ When clone repository it comes as a git repository (step 5).
 
 1 - It was create one project in the portal GitHub e other in the device local. And you want link both.
 
-Use command: 
+- Copy in the portal GitHub the address HTTPS or SSH" (https://github.com/WanderBernardo/Git_Github_InstallConfiguration) of the project.
+  ![image](https://github.com/user-attachments/assets/42e108c4-21eb-411d-85d2-2e73975b6e5d)
+
+- On the command screen type command: ``` git remote add origin  "Add address HTTPS or SSH" ```. But first, enter in the diretory of the project that you want link with remote (portal GitHub).
+  ![image](https://github.com/user-attachments/assets/dcd0910e-7753-4035-91c4-0b474d5c9704)
+
+2 - Check link from remote to local, use command: ``` cd .git  ``` and ``` cat config  ```
+![image](https://github.com/user-attachments/assets/d1e5323d-41f4-4715-a599-b3120173711b)
+
+The same address of the portal GitHub.
+
+
+  
+
