@@ -11,7 +11,6 @@ The Goal in this repository is show how unmake changes
 - ``` rm -rf .git ``` Unmake to version control Git.
 - ``` git status ``` Validate if folder is with version control Git
 
-
 ### Restore of files after commit
 
 1 - Example, deleted the contents of the file "README.md". Use command: ``` git restore "name file" ```:
@@ -25,7 +24,6 @@ Consult Hash - use command: ``` git log ```:
 ![image](https://github.com/user-attachments/assets/702265f1-6e1c-4422-8ecf-76d48ed5d180)
 
 Consult log again to validation after use command below.
-
 
 1 - Use command: ``` git reset --soft "hash do commit" ```
 
@@ -43,5 +41,20 @@ In this comand can it use only:  ``` git reset "hash do commit" ```, because thi
 
 https://www.geeksforgeeks.org/whats-the-difference-between-git-reset-mixed-soft-and-hard/
 
+Use command: ``` git reflog ``` to consult historical change:
+
+![image](https://github.com/user-attachments/assets/1f740582-799d-4b94-af32-aba4bc868dfc)
+
+
+### Delete files of the preparation area
+
+1 - File "README.md.md" is preparation area to commit.
+![image](https://github.com/user-attachments/assets/ae2f7f47-4e70-4b0a-87e4-93b7548647ba)
+
+2 - Use command: ``` git reset "name files" ```
+
+![image](https://github.com/user-attachments/assets/5cc9e7a8-8d2f-4514-b84f-180de57fe007)
+
+Use "Git status" again to validate.
 
 ## Be careful when using this command
