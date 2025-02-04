@@ -18,7 +18,30 @@ The Goal in this repository is show how unmake changes
 
 ![image](https://github.com/user-attachments/assets/60848a7e-8bf4-4918-a40a-c74ccdf58504)
 
+### Restore of files before commit: git reset --soft, --mixed or --hard
 
-### Restore of files before commit
+Consult Hash - use command: ``` git log ```:
 
-1 - 
+![image](https://github.com/user-attachments/assets/702265f1-6e1c-4422-8ecf-76d48ed5d180)
+
+Consult log again to validation after use command below.
+
+
+1 - Use command: ``` git reset --soft "hash do commit" ```
+
+![image](https://github.com/user-attachments/assets/243524b4-3cbb-4964-9991-a9a49bb04482)
+
+2- Use command: ``` git reset --mixed "hash do commit" ```
+
+In this comand can it use only:  ``` git reset "hash do commit" ```, because this option is standard.
+
+3- Use command: ``` git reset --hard "hash do commit" ```
+
+### About more: 
+
+![image](https://github.com/user-attachments/assets/0be6a76d-f93b-464b-9ed7-e8b92f6082f8)
+
+https://www.geeksforgeeks.org/whats-the-difference-between-git-reset-mixed-soft-and-hard/
+
+
+## Be careful when using this command
