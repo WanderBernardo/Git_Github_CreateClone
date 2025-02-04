@@ -3,7 +3,7 @@ The goal this repository is show how create and clone project
 
 
 
-### Create
+### Create Local Project
 
 1 - First, create one repository in the device (notebook) where it'll be to salve all project. I like of puting in the Disc "C". Because I think more difficult of delete for accident.
 ![image](https://github.com/user-attachments/assets/8284d7f8-eb0b-42ed-9b72-626330f57252)
@@ -39,3 +39,21 @@ On screen above apparently there wasn't modification but:
 
   This hidden folder or files are of configuration to GitHub integration. "Don't change!"
 
+
+
+### Clone
+
+1 - Use Command: ``` git clone "Add address HTTPS or SSH" ``` (https://github.com/WanderBernardo/Git_Github_InstallConfiguration):
+![image](https://github.com/user-attachments/assets/be80b417-5f8e-4814-8c54-58268bd96d0f)
+
+Case, I want clone using other project name, Use command:  ``` git clone "Add address HTTPS or SSH" "New name"```:
+![image](https://github.com/user-attachments/assets/8d71db47-fd8e-41cc-b54e-775993755b49)
+
+When clone repository it comes as a git repository (step 5). 
+
+
+### Link a local repository with a remote one
+
+1 - It was create one project in the portal GitHub e other in the device local. And you want link both.
+
+Use command: 
