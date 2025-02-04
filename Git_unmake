@@ -6,3 +6,6 @@ The Goal in this repository is show how unmake changes
 1 - Case you have create a project and without wanting to make command: ``` git init ``` in this project so, use command: ``` rm -rf .git ``` to unmake:
 
 
+
+
+
