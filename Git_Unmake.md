@@ -58,3 +58,8 @@ Use command: ``` git reflog ``` to consult historical change:
 Use "Git status" again to validate.
 
 ## Be careful when using this command
+
+
+## Next Step
+
+https://github.com/WanderBernardo/Git_Github_DownloadUpload
